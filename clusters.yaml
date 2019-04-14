@@ -1,7 +1,19 @@
+clusters:
 - alias: hasura
-  config:
-    configmap: controller-conf
-    namespace: hasura
   data: null
-  kubeContext: flashiness71
-  name: flashiness71
+  infra:
+    nodes:
+    - labels:
+        app: postgres
+      type: s-2vcpu-4gb
+    provider: digital-ocean
+    region: nyc1
+    version: v1
+    volumes:
+    - name: postgres
+      size: 10
+    - name: filestore
+      size: 10
+    - name: sessionstore
+      size: 2
+version: v1
