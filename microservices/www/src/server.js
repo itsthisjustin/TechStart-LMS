@@ -90,7 +90,7 @@ app.get('/', function (req, res) {
     res.redirect('/student');
   } else {
     res.render('index', {
-      title: "eTechStart LMS - Helping students explore computer science through subject-based tech projects."
+      title: "TechStart LMS - Helping students explore computer science through subject-based tech projects."
     });
   }
 });
