@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.set('env', 'production'); //development or production
 // session handling: dev only
 app.use(session({
-	secret: 'eGyan Development Mode',
+	secret: 'TechStart LMS Development Mode',
 	cookie: {maxAge: 1814400},
 	resave: false,
 	saveUninitialized: true
@@ -90,7 +90,7 @@ app.get('/', function (req, res) {
     res.redirect('/student');
   } else {
     res.render('index', {
-      title: "eGyan - Simple and Effective Elearning Platform for Everyone"
+      title: "eTechStart LMS - Helping students explore computer science through subject-based tech projects."
     });
   }
 });
@@ -99,7 +99,7 @@ app.get('/student', function (req, res) {
   let userInfo = getBasicAuthInfo(req);
   if (userInfo.role === "user" || userInfo.role === "admin") {
     res.render('student', {
-      title: "eGyan - Student Home"
+      title: "TechStart - Student Home"
     });
   } else {
     res.redirect('/');
@@ -381,5 +381,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // listens for connections on the port 8080
 app.listen(8080, function () {
-  console.log('egyan app listening on port 8080!');
+  console.log('TechStart LMS app listening on port 8080!');
 });

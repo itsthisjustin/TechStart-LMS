@@ -1,4 +1,4 @@
-INSERT INTO badge_details (badge_id, name, points, badge_logo, badge_description) VALUES (1, 'Member Badge', 0, 'member_badge.png', 'Thank you for becoming a member of eGyan!');
+INSERT INTO badge_details (badge_id, name, points, badge_logo, badge_description) VALUES (1, 'Member Badge', 0, 'member_badge.png', 'Thank you for becoming a member of TechStart!');
 INSERT INTO badge_details (badge_id, name, points, badge_logo, badge_description) VALUES (2, 'Beginner Badge', 50, 'beginner_badge.png', 'Way to go! Keep collecting.');
 INSERT INTO badge_details (badge_id, name, points, badge_logo, badge_description) VALUES (3, 'Intermediate Badge', 250, 'intermediate_badge.png', 'You have got this for collecting 250pts');
 INSERT INTO badge_details (badge_id, name, points, badge_logo, badge_description) VALUES (4, 'Pro Badge', 500, 'pro_badge.png', 'You have got this for collecting 500pts');

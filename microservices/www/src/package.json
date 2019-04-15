@@ -1,7 +1,7 @@
 {
-  "name": "egyan",
+  "name": "TechStart",
   "version": "1.0.0",
-  "description": "eGyan - Simple and effective elearning platform for everyone",
+  "description": "TechStart LMS - Helping students explore computer science through subject-based tech projects.",
   "scripts": {
     "start": "node server.js"
   },
