@@ -1,20 +1,6 @@
-# eGyan
-eGyan is a web application built with Node.js (Express) and [Hasura](https://hasura.io/) Platform. It is a simple and effective eLearning app for everyone.
+# TechStart LMS
+The TechStart LMS is built with Node.js (Express) and [Hasura](https://hasura.io/) Platform.
 
-> ***Now, available at [Hasura Hub](https://hasura.io/hub/project/anantajitjg/egyan)***
-
-## Overview
-This provides you with a great starting point for building a full-fledged eLearning application. In eGyan a user/student needs to register with a username and password for accessing the course content and to save his course progress. Courses are categorized based on activity- Active courses, completed courses, courses yet to be enrolled/Available Courses. Each courses are divided into separate modules. Each module contains different topics. Each topics are points based. So, students can accumulate points to collect different badges. This will make learning interesting! In order to collect points they have to mark each topic as completed!
-
-[![eGyan Video](https://user-images.githubusercontent.com/22009263/33184648-a2dc2026-d0a3-11e7-880e-ae602fcef1b2.png)](https://youtu.be/5VeZMmC7Idc)
-
-## Setup
-
-* [Initial Setup](#initial-setup)
-* [Project Structure](#project-structure)
-* [Hasura cluster](#hasura-cluster)
-* [Deploy the Project](#deploy-the-project)
-* [Accessing Console](#accessing-console)
 
 ### Initial Setup
 #### Setup the Hasura CLI
@@ -34,7 +20,7 @@ This command will open up the browser and allow you to register with a new accou
 #### Clone the project
 Now, clone this project by running this command
 ```
-$ hasura clone anantajitjg/egyan
+$ hasura clone {your github url}
 ```
 
 ### Project Structure
@@ -114,5 +100,3 @@ $ hasura api-console
 
 This will open up Console UI on the browser. You can access it at [http://localhost:9695](http://localhost:9695)
 
-## License
-eGyan is open-sourced software licensed under the MIT license. See the [LICENSE](https://raw.githubusercontent.com/anantajitjg/eGyan/master/LICENSE) for more.
